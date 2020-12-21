@@ -1,0 +1,1 @@
+remove_voxel.exe smo_c.xyz cloud_voxel.xyz 0.005f
