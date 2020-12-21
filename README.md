@@ -1,14 +1,12 @@
 <ul>
   <li>"rekonstrukcja-modelu-3D"</li>
-  <li>As part of the thesis, a method of creating three-dimensional models based on
-the reconstruction of a three-dimensional scene from a set of images was developed.
-This method requires only an image recording device, a series of images of any object
-and appropriate computer software. As a result of image analysis, individual fragments
-of the images are compared with each other in order to simultaneously determine the
-position of points in the scene and the position of cameras recording the images. After
-determining the initial dimensions of the scanned objects, the depth estimation
-technique is used to finally determine three-dimensional models. The final step is to
-analyse the image in order to provide information about the colour of the object and to
-create a texture superimposed on the created three-dimensional model of the scanned
-    object.</li>
+  <li>The project is implemented in c++ and python. </li>
+  <li>The algorithm on the basis of a series of photographs registered from different camera settings for any object performs a reconstruction of a three-dimensional model on the basis of the captured photographs./li>
+  <li>In order to generate a three-dimensional model of an object from photographs, the algorithm performs the following steps:</li>
+  <li>- determination of internal and external parameters of the camera</li>
+  <li>- depth map estimation</li>
+  <li>- determination of the point cloud</li>
+  <li>- generation of a triangular grid</li>
+  <li>- smoothing of the triangular grid</li>
+  <li>- overlay of two-dimensional graphics on three-dimensional models</li>
 </ul>
